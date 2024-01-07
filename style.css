@@ -14,7 +14,6 @@
   padding: 50px;
   /* background-color: #ff6f61; */
   background-color: #23243b;
-
 }
 
 #head_div {
@@ -60,7 +59,6 @@
 #main {
   padding: 50px;
   background-color: #23243b;
-
 }
 
 .main_cen {
@@ -85,15 +83,27 @@
   font-size: 1.3rem;
 }
 
-.fa-github{
-    font-size: 3rem;
-    color: #fa4c54;
-    margin-top: 20px;
-    cursor: pointer;
+.fa-github {
+  font-size: 3rem;
+  color: #fa4c54;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
-.fa-github:hover{
+.fa-linkedin{
+    font-size: 3rem;
+  color: #fa4c54;
+  margin-top: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.fa-linkedin:hover {
     color: #ffd166;
+  }
+
+.fa-github:hover {
+  color: #ffd166;
 }
 
 .main_right {
@@ -109,12 +119,11 @@
 }
 
 /* Skills */
-#skills{
-    
+#skills {
 }
 h1 {
   text-align: center;
-  font-family: 'Pixelify Sans', sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
 }
 h3 {
   margin: 5px;
@@ -126,12 +135,12 @@ h3 {
   padding: 20px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   background-color: #23243b;
-
 }
 
 .skill li {
   margin: 20px 0;
   padding: 10px;
+  list-style: none;
 }
 .bar {
   background: #353b48;
@@ -150,7 +159,11 @@ h3 {
 .bar span {
   height: 20px;
   float: left;
-  background: linear-gradient(135deg, rgba(236, 0, 140, 1) 0%, rgba(252, 103, 103, 1) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(236, 0, 140, 1) 0%,
+    rgba(252, 103, 103, 1) 100%
+  );
 }
 
 .html {
@@ -208,12 +221,108 @@ h3 {
 
 /* Footer */
 
-#footer{
-    display: flex;
-    color: #ffd166;
-    background-color: #000;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
+#footer {
+  display: flex;
+  color: #ffd166;
+  background-color: #000;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* RESPONSIVENESS */
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    .main_left h1 {
+        font-size: 2.3rem;
+    }
+    .card-image {
+        width: 200px;
+    }
+
+    #head{
+        padding: 10px;
+    }
+
+    .right{
+        font-size: 1.2rem;
+    }
+
+    .left{
+        font-size: 1.2rem;
+    }
+
+    #main{
+        padding: 0;
+    }
+    .card-image{
+        width: 150px;
+    }
+    .main_left h1 {
+        font-size: 2rem;
+    }
+
+    .main_left p {
+        font-size: 1rem;
+    }
+}
+
+/* Tablets */
+@media only screen and (max-width: 521px) {
+    body{
+        width: 100%;
+    }
+    #head {
+        padding: 10px;
+        width: 105%;
+    }
+    .left {
+       
+        font-size: 1.3rem;
+    
+    }
+
+    .right{
+        font-size: 1.3rem;
+    }
+
+    #main {
+        padding: 0px;
+        width: 105%;
+    }
+
+    .skill{
+        width: 508px;
+    }
+
+    .main_cen{
+        padding: 20px;
+        height: 95vh;
+    }
+
+    .card-image{
+        width: 150px;
+    }
+    .main_left h1 {
+        font-size: 2rem;
+    }
+
+    .main_left p {
+        font-size: 1rem;
+    }
+
+    #footer{
+        width: 105%;
+    }
+}
+
+/* Small Desktops and Laptops */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* styles for small desktops and laptops */
+}
+
+/* Large Desktops */
+@media only screen and (min-width: 1200px) {
+  /* styles for large desktops */
 }

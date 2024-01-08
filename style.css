@@ -90,8 +90,8 @@
   cursor: pointer;
 }
 
-.fa-linkedin{
-    font-size: 3rem;
+.fa-linkedin {
+  font-size: 3rem;
   color: #fa4c54;
   margin-top: 20px;
   margin-left: 5px;
@@ -99,8 +99,8 @@
 }
 
 .fa-linkedin:hover {
-    color: #ffd166;
-  }
+  color: #ffd166;
+}
 
 .fa-github:hover {
   color: #ffd166;
@@ -234,89 +234,119 @@ h3 {
 /* RESPONSIVENESS */
 /* Mobile Devices */
 @media only screen and (max-width: 767px) {
-    .main_left h1 {
-        font-size: 2.3rem;
-    }
-    .card-image {
-        width: 200px;
-    }
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .main_left h1 {
+    font-size: 2.3rem;
+  }
+  .card-image {
+    width: 200px;
+  }
 
-    #head{
-        padding: 10px;
-    }
+  #head {
+    padding: 10px;
+  }
 
-    .right{
-        font-size: 1.2rem;
-    }
+  .right {
+    font-size: 1.2rem;
+  }
 
-    .left{
-        font-size: 1.2rem;
-    }
+  .left {
+    font-size: 1.2rem;
+  }
 
-    #main{
-        padding: 0;
-    }
-    .card-image{
-        width: 150px;
-    }
-    .main_left h1 {
-        font-size: 2rem;
-    }
+  #main {
+    padding: 0;
+  }
+  .card-image {
+    width: 150px;
+  }
+  .main_left h1 {
+    font-size: 2rem;
+  }
 
-    .main_left p {
-        font-size: 1rem;
-    }
+  .main_left p {
+    font-size: 1rem;
+  }
 }
 
 /* Tablets */
 @media only screen and (max-width: 521px) {
-    body{
-        width: 100%;
-    }
-    #head {
-        padding: 10px;
-        width: 105%;
-    }
-    .left {
-       
-        font-size: 1.3rem;
-    
-    }
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #head {
+    padding: 10px;
+    width: 105%;
+  }
+  .left {
+    font-size: 1.3rem;
+  }
 
-    .right{
-        font-size: 1.3rem;
-    }
+  .right {
+    font-size: 1.3rem;
+  }
 
-    #main {
-        padding: 0px;
-        width: 105%;
-    }
+  #main {
+    padding: 0px;
+    width: 105%;
+  }
 
-    .skill{
-        width: 508px;
-    }
+  .skill {
+    width: 508px;
+  }
 
-    .main_cen{
-        padding: 20px;
-        height: 95vh;
-    }
+  .main_cen {
+    padding: 20px;
+    height: 95vh;
+  }
 
-    .card-image{
-        width: 150px;
-    }
-    .main_left h1 {
-        font-size: 2rem;
-    }
+  .card-image {
+    width: 150px;
+  }
+  .main_left h1 {
+    font-size: 2rem;
+  }
 
-    .main_left p {
-        font-size: 1rem;
-    }
+  .main_left p {
+    font-size: 1rem;
+  }
 
-    #footer{
-        width: 105%;
-    }
+  #footer {
+    width: 105%;
+  }
 }
 
+@media only screen and (max-width: 435px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .right, .left{
+    font-size: 1rem;
+  }
+
+  .main_left h1{
+    font-size: 1.5rem;
+  }
+
+  .main_left p{
+    font-size: 0.9rem;
+  }
+
+  .fa-github, .fa-linkedin{
+    font-size: 2rem;
+  }
+  .skill {
+    width: 320px;
+}
+}
 /* Small Desktops and Laptops */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* styles for small desktops and laptops */

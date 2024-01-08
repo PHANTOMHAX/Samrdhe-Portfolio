@@ -282,7 +282,6 @@ h3 {
   }
   #head {
     padding: 10px;
-    width: 105%;
   }
   .left {
     font-size: 1.3rem;
@@ -316,10 +315,6 @@ h3 {
   .main_left p {
     font-size: 1rem;
   }
-
-  #footer {
-    width: 105%;
-  }
 }
 
 @media only screen and (max-width: 435px) {
@@ -328,23 +323,55 @@ h3 {
     width: 100%;
     overflow-x: hidden;
   }
-  .right, .left{
+  .right,
+  .left {
     font-size: 1rem;
   }
 
-  .main_left h1{
+  .main_left h1 {
     font-size: 1.5rem;
   }
 
-  .main_left p{
+  .main_left p {
     font-size: 0.9rem;
   }
 
-  .fa-github, .fa-linkedin{
+  .fa-github,
+  .fa-linkedin {
     font-size: 2rem;
   }
   .skill {
     width: 320px;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .right i {
+    margin-left: 12px;
+    font-size: 1rem;
+  }
+
+  .right,
+  .left {
+    font-size: 0.8rem;
+  }
+
+  .main_left h1 {
+    font-size: 1.3rem;
+}
+
+.main_left p{
+  font-size: 0.7rem;
+}
+
+.fa-github, .fa-linkedin {
+  font-size: 1.7rem;
 }
 }
 /* Small Desktops and Laptops */
